@@ -1,25 +1,49 @@
 /* index.html homepage */
 
 html {
-    margin: 0 10%;
+    color: white;
 }
-header {
+.bodysegment1, header {
+    background-color: #1F2937;
+}
+.headersegment {
+    padding: 15px 10%;
     display: flex;
     justify-content: space-between;
 }
 .headerlinkgroups {
     display: flex;
     text-align: right;
-    justify-content: space-between;
+    gap: 10px;
+    font-size: small;
+}
+.bodycontent {
+    padding: 5% 10%;
 }
 .actionflexbox {
     display: flex;
+    gap: 5%;
     align-items: center;
-    justify-content: stretch;
+}
+.actionflexcontent {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 .placeholderimage {
     border: transparent;
     background: gray;
+    width: 50%;
+    text-align: center;
+    padding: 5%;
+    border-radius: 10%;
+}
+.signupbutton {
+    background-color: #3882F6;
+    border: transparent;
     color: white;
-
+    border-radius: 5%;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
 }
