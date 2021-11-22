@@ -1,10 +1,29 @@
 /* index.html homepage */
 
 html {
-    color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    transform: scale(1.1);
+    transition: 100ms;
+    text-decoration: underline;
+    cursor: pointer;
+}
+q {
+    font-style: italic;
+    font-weight: normal;
+    color: rgb(61, 61, 61);
 }
 .bodysegment1, header {
-    background-color: #1F2937;
+    background-color: peachpuff;
+}
+.bodysegment3 {
+    background-color: rgba(209, 209, 209, 0.568);
 }
 .headersegment {
     padding: 15px 10%;
@@ -31,19 +50,41 @@ html {
     width: 50%;
 }
 .placeholderimage {
-    border: transparent;
-    background: gray;
     width: 50%;
     text-align: center;
-    padding: 5%;
-    border-radius: 10%;
 }
 .signupbutton {
-    background-color: #3882F6;
+    background-color: black;
     border: transparent;
     color: white;
     border-radius: 5%;
     width: 100px;
     padding: 5px;
     cursor: pointer;
+}
+.signupbutton:hover {
+    transform:scale(1.1);
+    transition: 300ms;
+}
+.imagereel {
+    display: flex;
+    justify-content: space-around;
+}
+.imagereel img {
+    height: 500px;
+    width: auto;
+}
+.calltoactionbox {
+    display: flex;
+    background-color:peachpuff;
+    align-items: center;
+}
+.calltoaction {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 5%;
+}
+.callbutton {
+    padding: 20px;
 }
