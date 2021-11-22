@@ -1,0 +1,25 @@
+/* index.html homepage */
+
+html {
+    margin: 0 10%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.headerlinkgroups {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+}
+.actionflexbox {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+.placeholderimage {
+    border: transparent;
+    background: gray;
+    color: white;
+
+}
