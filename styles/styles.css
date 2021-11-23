@@ -26,7 +26,7 @@ q {
     background-color: rgba(209, 209, 209, 0.568);
 }
 .headersegment {
-    padding: 1% 10%;
+    padding: 1% 20%;
     display: flex;
     justify-content: space-between;
 }
@@ -37,7 +37,7 @@ q {
     font-size: small;
 }
 .bodycontent {
-    padding: 2% 10%;
+    padding: 2% 20%;
 }
 .actionflexbox {
     display: flex;
