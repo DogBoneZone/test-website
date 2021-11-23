@@ -28,7 +28,8 @@ q {
 .headersegment {
     padding: 1% 20%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 .headerlinkgroups {
     display: flex;
@@ -52,6 +53,9 @@ q {
 .placeholderimage {
     width: 50%;
     text-align: center;
+}
+.placeholderimage img {
+    border-radius: 10%;
 }
 .signupbutton {
     background-color: black;
